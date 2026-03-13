@@ -30,25 +30,25 @@ let litros = volume * 1000;
 
 let bomba;
 
-if (volume <= 18) {
+if (volume <= 24) {
   bomba = "1/4 CV";
 } 
-else if (volume <= 30) {
+else if (volume <= 24,8) {
   bomba = "1/3 CV";
 } 
-else if (volume <= 58) {
+else if (volume <= 46,4) {
   bomba = "1/2 CV";
 } 
-else if (volume <= 91) {
+else if (volume <= 72,8) {
   bomba = "3/4 CV";
 } 
-else if (volume <= 160) {
+else if (volume <= 96,0) {
   bomba = "1 CV";
 } 
-else if (volume <= 228) {
+else if (volume <= 125,6) {
   bomba = "1.5 CV";
 } 
-else if (volume <= 408) {
+else if (volume <= 152,0) {
   bomba = "2 CV";
 } 
 else {

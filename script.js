@@ -46,9 +46,6 @@ volume.toFixed(2) + " m³<br>" +
 
 litros.toFixed(0) + " litros<br><br>" +
 
-"<b>Potência sugerida da bomba</b><br>" +
-bomba + "<br><br>" +
-
 "<b>Metragem aproximada de vinil</b><br>" +
 areaVinil.toFixed(2) + " m²";
 

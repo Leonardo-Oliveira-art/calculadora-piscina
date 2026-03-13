@@ -26,35 +26,6 @@ let volume = comprimento * largura * profMedia;
 
 let litros = volume * 1000;
 
-/* potência da bomba */
-
-let bomba;
-
-if (volume <= 24) {
-  bomba = "1/4 CV";
-} 
-else if (volume <= 24,8) {
-  bomba = "1/3 CV";
-} 
-else if (volume <= 46,4) {
-  bomba = "1/2 CV";
-} 
-else if (volume <= 72,8) {
-  bomba = "3/4 CV";
-} 
-else if (volume <= 96,0) {
-  bomba = "1 CV";
-} 
-else if (volume <= 125,6) {
-  bomba = "1.5 CV";
-} 
-else if (volume <= 152,0) {
-  bomba = "2 CV";
-} 
-else {
-  bomba = "Consultar projeto hidráulico";
-}
-
 /* área aproximada de vinil */
 
 let fundo = comprimento * largura;
